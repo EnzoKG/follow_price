@@ -9,7 +9,7 @@
 import os
 import sys
 sys.path.append(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), ".."))
-os.environ['DJANGO_SETTINGS_MODULE'] = 'best_movies.settings'
+os.environ['DJANGO_SETTINGS_MODULE'] = 'precos_produtos.settings'
 import django
 django.setup()
 from precos_produtos.settings import MEDIA_ROOT
