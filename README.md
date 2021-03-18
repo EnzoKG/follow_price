@@ -6,10 +6,15 @@ Este projeto tem o intuito de realizar a construção de uma aplicação web usa
 2. precos_produtos: é o projeto django para o desenvolvimento de um sistema web;
 3. price: é um app (application) onde será criado a nossa app.
 
+## Para instalar dependecias do projeto:
+**...: cd precos_produtos**
+<br>
+**...: pip install dependences.txt**
+
 ## Para executar o crawling da página basta digitar no terminal:
-*...: scrapy crawl nome_spider*
+**...: scrapy crawl nome_spider**
 OU
-*...: scrapy runspider nome_spider.py* //Pode adicionar --nolog para executar sem o log
+**...: scrapy runspider nome_spider.py** //Pode adicionar --nolog para executar sem o log
 
 ## Para executar o servidor, basta digitar:
-*...: python manage.py runserver*
+**...: python manage.py runserver**
