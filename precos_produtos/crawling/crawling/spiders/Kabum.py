@@ -20,6 +20,7 @@ class KabumSpider(scrapy.Spider):
             for equipamento in equipamentos:
                 if equipamento.titulo == "Cadeiras Gamer":    
                     link_produto = ""
+                    # TODO: Adicionar links na mao dos respectivos itens de pesquisa
                     yield scrapy.Request(url=link, callback=self.extraindo_dados)
                 else:
                     print(equipamento.titulo)
