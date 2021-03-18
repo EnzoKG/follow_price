@@ -16,7 +16,9 @@ Este projeto tem o intuito de realizar a construção de uma aplicação web usa
 
 **OU**
 
-**...: scrapy runspider nome_spider.py** //Pode adicionar --nolog para executar sem o log
+**...: scrapy runspider nome_spider.py**
+
+**...: scrapy runspider nome_spider.py --nolog**
 
 ## Para executar o servidor, basta digitar:
 **...: python manage.py runserver**
