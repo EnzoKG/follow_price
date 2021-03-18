@@ -1,0 +1,4 @@
+Django==2.2.1
+scrapy-djangoitem==1.1.1
+scrapy==2.4.1
+Pillow==2.2.2
