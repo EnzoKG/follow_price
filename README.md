@@ -9,6 +9,7 @@ Este projeto tem o intuito de realizar a construção de uma aplicação web usa
 ## Para instalar dependecias do projeto:
 **...: cd precos_produtos**
 <br>
+
 **...: pip install dependences.txt**
 
 ## Para executar o crawling da página basta digitar no terminal:
