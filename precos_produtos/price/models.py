@@ -11,7 +11,7 @@ class Pesquisa(models.Model):
 
 class Equipamentos(models.Model):
     titulo = models.CharField(max_length=200, default='nulo')
-    nome = models.CharField(max_length=200, default='nulo')
+    url = models.URLField(verbose_name='Link', default='nulo')
 
     def __str__(self):
         return self.titulo
